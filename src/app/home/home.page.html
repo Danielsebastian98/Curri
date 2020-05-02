@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      CV Mobile App
+    </ion-title>
+  <!-- Side menu button -->
+  <ion-buttons slot="start">
+    <ion-menu-button autoHide="false"></ion-menu-button>
+  </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Homepage</ion-title>  
+        </ion-toolbar>
+      </ion-header> 
+
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" style="color: blue;">
+    <strong>Hello and welcome !</strong>
+    <p>This is my CV Mobile Application </p>
+    <ion-button href="/menu/personal">Personal Profile</ion-button>
+    <ion-button href="/menu/technical">Technical Skills</ion-button>
+    <ion-button href="/menu/soft">Soft Skills</ion-button>
+  </div>
+
+</ion-content>
+<style>
+  p {
+    font-weight: 800;
+  }
+  ion-button {
+    padding-top: 15px;
+  }
+ </style>
